@@ -1,0 +1,184 @@
+#logo{
+	width: 228px;
+	margin-top: -74px;
+	margin-bottom: -102px;
+    text-align: center;
+    overflow: hidden;
+    border: 0px black solid;
+    border-radius: 0 77px 200px 80px;
+}
+li{
+	display: inline;
+	font-size: 30px;
+	font-family: 'Sunny Spells';
+}
+li img{
+	width: 116px;
+	height: 121px;
+
+}
+header{
+	background-color: #024E34;
+	width: 100%;
+	height: 250px;	
+	text-align: center;	
+}
+h2:before{
+	content: "« ";
+	color: gray;
+}
+h2:after{
+	content: " »";
+	color: gray;
+}
+
+section{
+	background-color: #024E34;
+}
+nav{
+
+	text-align: center;
+	font-size: 1.1em;
+}
+a{
+	text-decoration: none; /*pour supprimer le underline */
+	color: black;
+}
+ul .hei{
+	padding: 0;/*pour decaler la list au debut de page*/
+	display: inline;
+}
+.hei li{
+	list-style-type: none; /*pour supprimer les points des puces*/
+	display: inline; /*pour que la liste soit horizontalement*/
+	padding: 10px;
+}
+.hei li:hover{
+	font-family: 'regular';
+	text-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.spar{
+	width: 80px;
+	height: .3px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	background-color: #999999;
+
+}
+#contact{
+	background-color: #024E34;
+	width: 100%;
+	height: 200px;	
+	text-align: center;
+	padding-top:20px;
+	margin-bottom: 0px;
+
+}
+.foot{
+	width: 100%;
+	height: 1px;
+
+}
+h1{
+	font-size: 30px;
+	text-align: center;
+	color: white;
+	margin: 0px;
+	padding: 50px;
+}
+.images{
+	width: 400px;
+	height: 266px;
+	overflow: hidden;
+	margin-bottom: 15px;
+	
+}
+.plat img{
+	min-width: 400px;
+	height: 266px;
+
+}
+.plat span{
+	text-transform: uppercase;
+	padding: 82px;
+	margin: 30px;
+}
+.plat{
+	width: 400px;
+    margin: 30px;
+    display: inline-block;
+    background: white;
+    padding-bottom: 15px;
+    border: 0px black solid;
+	border-radius: 2px 200px 200px;
+	overflow: hidden;/* tout ce qui passe les coins de div sera caché(image)*/
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.plat:hover{
+	box-shadow: 14px 12px 24px 15px #000000;
+	transition: 0.3s;/*le duree de l'ombre */
+	
+}
+#plats{
+	
+	justify-content: space-between;
+
+}
+p{
+	
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+
+}
+* {
+    box-sizing: border-box;
+}
+#cash{
+	width: 150px;
+	position: absolute;
+	margin-top: -25px;
+	margin-left: 750px;
+
+}
+#livrer{
+	width: 93px;
+	position: absolute;
+	margin-top: 12px;
+	margin-left: 550px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+#liv{
+	font-size: 20px;
+	margin-top: 107px;
+	margin-left: 520px;
+	position: absolute;
+	font-weight: bold;
+	color: white;
+}
+#cas{
+	font-size: 20px;
+	margin-top: 107px;
+	margin-left: 750px;
+	position: absolute;
+	font-weight: bold;
+	color: white;
+}
+section[id="bas"]{
+	width: 100%;
+	height: 142px;
+}
+/*Police*/
+@font-face{
+      font-family: 'regular';
+      src: url('../src/regular.ttf') format('truetype');
+  }
+@font-face{
+      font-family: 'Sunny Spells';
+      src: url('../src/Sunny Spells.ttf') format('truetype');
+  }
